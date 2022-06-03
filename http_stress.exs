@@ -1,3 +1,7 @@
+# Example usage: 
+# ```
+# elixir http_stress.exs --url="https://www.google.com" --total-requests=32 --concurrency=1
+# ```
 defmodule Args do
   def valid?(args) do
     case args do
